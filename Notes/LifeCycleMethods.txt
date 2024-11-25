@@ -1,0 +1,18 @@
+Mounting
+	constructor()
+	UNSAFE_componentWillMount() | static getDerivedStateFomProps()
+	render()
+	componentDidMount()
+
+Updating
+	UNSAFE_componentWillRecieveProps() | static getDerivedStateFomProps()
+	shouldComponentUpdate()
+	UNSAFE_componentWillUpdate()
+	render()
+	componentDidUpdate()
+
+UnMounting
+	componentWillUnmount()
+
+Error
+	componentDidCatch()
